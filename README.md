@@ -2,16 +2,16 @@
 
 Ensure that webpack is installed Globally
 
-    `npm i webpack -g`
+    npm i webpack -g
 
 Install all the packages:
 
-    `npm i`
+    npm i
 
 Run app in Development mode:
 
-    `npm start`
+    npm start
 
 Run app in Production mode:
 
-    `npm run build`  
+    npm run build  
