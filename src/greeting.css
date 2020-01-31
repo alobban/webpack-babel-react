@@ -1,3 +1,11 @@
 .bold-name {
     font-weight: bold;
 }
+
+.bold-name:hover {
+    color: blue;
+}
+
+.name-background-color {
+    background-color: #ffe4c4;
+}

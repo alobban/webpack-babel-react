@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Input from "../presentational/Input.jsx";
+import styles from './FormContainer.css';
+
 class FormContainer extends Component {
   constructor() {
     super();
@@ -15,7 +17,7 @@ class FormContainer extends Component {
   render() {
     const { seo_title } = this.state;
     return (
-      <form id="article-form">
+      <form id="article-form" className={styles.layout}>
         <Input
           text="SEO title"
           label="seo_title"
